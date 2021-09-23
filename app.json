@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "TLiOS",
-    "slug": "TLiOS",
-    "version": "1.0.0",
+    "name": "Torchlight",
+    "slug": "torchlight",
+    "owner": "southleftllc",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,20 +14,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*", "assets/*"],
     "ios": {
+      "bundleIdentifier": "com.southleftllc.torchlight",
+      "buildNumber": "2.0.0",
       "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Torchlight Caregiving, Child and Elder"
   }
 }
