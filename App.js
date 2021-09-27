@@ -104,7 +104,9 @@ export default function App() {
               <View style={styles.logoContainer}>
                 <Image source={logoElder} style={styles.logo} />
               </View>
-              <Text style={styles.buttonBody}>I'm a parent or guardian.</Text>
+              <Text style={styles.buttonBody}>
+                I'm a caregiver for an adult.
+              </Text>
               <Text style={styles.buttonCta}>{'Explore Now >'}</Text>
             </Pressable>
           </View>
@@ -112,21 +114,21 @@ export default function App() {
             <Text style={styles.bodyText}>
               Torchlight illuminates the way for working parents and caregivers.
             </Text>
-          <LinearGradient
-            colors={['transparent', '#E3E3E3']}
-            locations={[0.3, 1]}
-            style={styles.iconColumns}>
-            <View style={[styles.iconColumn, styles.columnLeft]}>
-              <Image style={styles.icon} source={digitalEguides} />
-              <Image style={styles.icon} source={informativePodcasts} />
-              <Image style={styles.icon} source={expertQa} />
-            </View>
-            <View style={[styles.iconColumn, styles.columnRight]}>
-              <Image style={styles.icon} source={ondemandWebinars} />
-              <Image style={styles.icon} source={expertAdvising} />
-              <Image style={styles.icon} source={downloadableTools} />
-            </View>
-          </LinearGradient>
+            <LinearGradient
+              colors={['transparent', '#E3E3E3']}
+              locations={[0.3, 1]}
+              style={styles.iconColumns}>
+              <View style={[styles.iconColumn, styles.columnLeft]}>
+                <Image style={styles.icon} source={digitalEguides} />
+                <Image style={styles.icon} source={informativePodcasts} />
+                <Image style={styles.icon} source={expertQa} />
+              </View>
+              <View style={[styles.iconColumn, styles.columnRight]}>
+                <Image style={styles.icon} source={ondemandWebinars} />
+                <Image style={styles.icon} source={expertAdvising} />
+                <Image style={styles.icon} source={downloadableTools} />
+              </View>
+            </LinearGradient>
           </View>
         </View>
       </ScrollView>
